@@ -243,7 +243,6 @@ private fun AuthenticatedApp(profile: UserProfile?, onSaveProfile: (UserProfile)
                     Text(if (register) "Already have an account? Sign in" else "New here? Create an account", color = Forest, modifier = Modifier.fillMaxWidth().clickable { register = !register }.padding(top = 14.dp), textAlign = TextAlign.Center, fontSize = 13.sp)
                 }
             }
-            Text("Development mode · Firebase is not connected", color = Mint, fontSize = 12.sp, modifier = Modifier.fillMaxWidth().padding(top = 18.dp), textAlign = TextAlign.Center)
         }
     }
 }
